@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Semarang</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <link rel="icon" href="image/logo-icon.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+      <nav>
+        <ul>
+          <a><img src="image/navbar.png"></a>
+          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#geografis">Geografis</a></li>
+          <li><a href="#wisata">Wisata</a></li>
+          <li><a href="#berita">Berita</a></li>
+        </ul>
+      </nav>
+
+      <div class="jumbotron-slider">
+        <div class="slides">
+          <div class="slide" style="background-image: url('image/jumbotron1.webp');">
+          </div>
+          <div class="slide" style="background-image: url('image/jumbotron2.jpg');">
+          </div>
+          <div class="slide" style="background-image: url('image/jumbotron3.jpg');">
+          </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+      </div>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="sejarah" class="card">
+          <h2>SEJARAH</h2>
+          <img src="image/sejarah.jpg" alt="sejarah" class="featured-image"/>
+          <p>
+            Sejarah Semarang berawal kurang lebih pada abad ke-6 M, yaitu daerah pesisir yang bernama Pragota 
+            (sekarang menjadi Bergota) dan merupakan bagian dari kerajaan Mataram Kuno. Daerah tersebut pada masa 
+            itu merupakan pelabuhan dan di depannya terdapat gugusan pulau-pulau kecil. Akibat pengendapan, yang 
+            hingga sekarang masih terus berlangsung, gugusan tersebut sekarang menyatu membentuk daratan.<br>
+            Bagian kota Semarang Bawah yang dikenal sekarang ini dengan demikian dahulu merupakan laut. Pelabuhan 
+            tersebut diperkirakan berada di daerah Pasar Bulu sekarang dan memanjang masuk ke Pelabuhan Simongan, 
+            tempat armada Laksamana Cheng Ho bersandar pada tahun 1435 M. Di tempat pendaratannya, Laksamana Cheng 
+            Ho mendirikan kelenteng dan masjid yang sampai sekarang masih dikunjungi dan disebut Kelenteng Sam Po 
+            Kong (Gedung Batu).
+          </p>
+        </article>
+
+        <article id="geografis" class="card">
+          <h2>GEOGRAFIS</h2>
+          <img src="image/geografis.png" alt="geografis" class="featured-image"/>
+          <p>
+            Kota Semarang adalah salah satu kota penting yang terletak di pesisir utara Jawa dan sebagai hub utama 
+            penghubung Jakarta–Surabaya dan kota–kota di pedalaman selatan Jawa (Surakarta dan Yogyakarta). Kota 
+            Semarang memiliki ketinggian dari 2 meter bawah permukaan laut hingga 340 meter di atas permukaan laut 
+            dengan kemiringan lereng 0%–45%. Kota Semarang merupakan kota yang memiliki kondisi topografi yang unik 
+            berupa wilayah dataran rendah yang sempit dan wilayah perbukitan yang memanjang dari sisi barat hingga 
+            sisi timur Kota Semarang. Wilayah dataran rendah di Kota Semarang sangat sempit.
+          </p>
+        </article>
+      </div>
+
+      <aside>
+        <article class="app-portal card">
+          <header>
+            <h2>Portal Aplikasi</h2>
+            <p>Akses cepat ke berbagai aplikasi</p>
+          </header>
+          <div class="portal-container">
+            <div class="portal-item">
+            <a href="https://sapambakita.semarangkota.go.id/"><img src="image/sapa.png" alt="Aplikasi 1"/></a>
+            <p>Sapa Mbak Ita</p>
+          </div>
+          <div class="portal-item">
+            <a href="tel://112"><img src="image/callCenter.png" alt="Aplikasi 2"/></a>
+            <p>Call Center 112</p>
+          </div>
+          <div class="portal-item">
+            <a href="https://pantausemar.semarangkota.go.id/?cctv_category_id=3"><img src="image/cctv.png" alt="Aplikasi 3"/></a>
+            <p>CCTV</p>
+          </div>
+          <div class="portal-item">
+            <a href="https://metaverse.semarangkota.go.id/"><img src="image/metaverse.png" alt="Aplikasi 4"/></a>
+            <p>Metaverse</p>
+          </div>
+          <div class="portal-item">
+            <a href="https://portalkecamatan.semarangkota.go.id/"><img src="image/kecamatan.png" alt="Aplikasi 5"/></a>
+            <p>Portal Kecamatan</p>
+          </div>
+          <div class="portal-item">
+            <a href="https://pariwisata.semarangkota.go.id/frontend/web/"><img src="image/pariwisata.png" alt="Aplikasi 6"/></a>
+            <p>Webside Pariwisata</p>
+          </div>
+          </div>
+        </article>
+
+        <article class="profile card">
+          <header>
+            <h2>Kota Semarang</h2>
+            <p>Venetië van Java</p>
+            <figure>
+              <img src="image/aside.webp"/>
+              <figcaption>Lambang</figcaption>
+            </figure>
+          </header>
+          <section>
+            <h3>Informasi Lainnya</h3>
+            <table>
+              <tr>
+                <th>Negara</th>
+                <td>Indonesia</td>
+              </tr>
+              <tr>
+                <th>Hari jadi</th>
+                <td>2 Mei 1547</td>
+              </tr>
+              <tr>
+                <th>Luas Total</th>
+                <td>373,70 km<sup>2</sup></td>
+              </tr>
+              <tr>
+                <th>Bahasa Daerah</th>
+                <td>Jawa</td>
+              </tr>
+              <tr>
+                <th>Kode Telepon</th>
+                <td>+62 24</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+        <div class="yt">
+          <iframe width="560" height="270" src="https://www.youtube.com/embed/1Xy8DtwdTCo?si=wV5piVS9Gnw2O_OK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </aside>
+
+        <article id="wisata" class="card">
+          <h2>WISATA</h2>
+          <p>
+          Sejak dibukanya Jalan Tol Cipularang, kota Bandung telah menjadi tujuan utama dalam
+          menikmati liburan akhir pekan, terutama dari masyarakat yang berasal dari Jakarta
+          sekitarnya.
+          </p>
+          <div class="wisata-grid">
+            <section class="wisata-item">
+              <h3>Masjid Agung Jawa Tengah</h3>
+              <img src="image/masjidAgung.jpg" alt="Farm House Lembang" />
+              <p>
+                Masjid Agung Jawa Tengah dirancang dalam gaya arsitektural campuran Jawa, Arab, dan Romawi.
+              </p>
+            </section>
+            <section class="wisata-item">
+              <h3>Museum Lawang Sewu</h3>
+              <img src="image/lawangSewu.jpg" alt="Observatorium Bosscha" />
+              <p>
+                Museum dan galeri sejarah perkeretaapian oleh Unit Pusat Pelestarian dan Desain Arsitektur dioperasikan KAI Wisata.
+              </p>
+            </section>
+            <section class="wisata-item">
+              <h3>GPIB Immanuel Semarang</h3>
+              <img src="image/gereja.jpg" alt="Kawah Putih" />
+              <p>
+                Gereja Kristen tertua di Jawa Tengah yang dibangun oleh masyarakat Belanda yang tinggal di kota itu pada 1753
+              </p>
+            </section>
+          </div>
+        </article>
+
+        <article id="berita" class="card">
+          <h2>BERITA TERKINI</h2>
+          <div class="berita-grid">
+            <section class="berita-item">
+              <img src="https://semarangkota.go.id/packages/upload/photo/2024-12-07/WhatsApp-Image-2024-12-06-at-20.19.49_11zon.jpeg" alt="Berita 1" />
+              <h3>Tindaklanjuti Kebijakan Presiden RI, Pemkot Semarang Segera Lakukan Perhitungan UMK Kota Semarang 2025</h3>
+              <a href="https://semarangkota.go.id/p/6128/tindaklanjuti_kebijakan_presiden_ri,_pemkot_semarang_segera_lakukan_perhitu" class="read-more">Baca Selengkapnya</a>
+            </section>
+            <section class="berita-item">
+              <img src="https://semarangkota.go.id/packages/upload/photo/2024-12-06/WhatsApp-Image-2024-12-05-at-19.54.19_11zon.jpeg" alt="Berita 2" />
+              <h3>Mbak Ita Kukuhkan Pengganti Antar Waktu (PAW) Dewan Pengurus KORPRI Kota Semarang</h3>
+              <a href="https://semarangkota.go.id/p/6127/mbak_ita_kukuhkan_pengganti_antar_waktu_(paw)_dewan_pengurus_korpri_kota_se" class="read-more">Baca Selengkapnya</a>
+            </section>
+            <section class="berita-item">
+              <img src="https://semarangkota.go.id/packages/upload/photo/2024-12-04/WhatsApp-Image-2024-12-04-at-20.46.36_11zon.jpeg" alt="Berita 3" />
+              <h3>Ayo Merapat! BI dan Pemkot Semarang Akan Gelar Jewel of Central Java di Simpang Lima</h3>
+              <a href="https://semarangkota.go.id/p/6126/ayo_merapat!_bi_dan_pemkot_semarang_akan_gelar_jewel_of_central_java_di_sim" class="read-more">Baca Selengkapnya</a>
+            </section>
+          </div>
+        </article>
+    </main>
+
+<footer>
+  <div class="footer-container">
+    <div class="maps">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14871.485996448488!2d110.412515!3d-6.982248!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708ba87e15e37b%3A0xb6685e7f890af6d9!2sBalai%20Kota%20Semarang!5e1!3m2!1sid!2sid!4v1733748324988!5m2!1sid!2sid" width="600" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="social-media">
+      <div class="social-icons">
+        <a href="https://www.facebook.com/semarangpemerintahkota/" target="_blank" class="social-icon facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/PemkotSmg" target="_blank" class="social-icon twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/semarangpemkot/" target="_blank" class="social-icon instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/c/PemkotSmg" target="_blank" class="social-icon youtube">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.tiktok.com/@semarangpemkot?_t=8bGApESvYAM&_r=1" target="_blank" class="social-icon tiktok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <p>&#169; PEMERINTAH KOTA SEMARANG 2024. All rights reserved.</p>
+</footer>
+
+    
+
+  </body>
+</html>
